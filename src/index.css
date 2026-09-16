@@ -1,0 +1,118 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.header__content{
+  background-image: linear-gradient(#0008, #0008), url('./assets/images/Header.jpg');
+  background-size: cover;
+  width: 100%;
+  color: azure;
+  padding: 100px 0;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.nav__content{
+  background-color: #000;
+  color: azure;
+  padding: 20px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__ul{
+  display: flex;
+  list-style: none;
+   align-items: center;
+}
+
+.nav__ul>h2{
+  font-size: 16px;
+
+}
+
+.nav__li{
+  padding: 5px 10px;
+  margin: 0 5px;
+  border: 1px solid azure;
+  border-radius: 5px;
+}
+
+.nav__a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav__li-cart{
+  border: 1px solid #3ad5f1;
+  color: #3ad5f1;
+}
+
+.card_content{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card{
+  width: 350px;
+  text-align: center;
+  border: 1px solid #d0c9c9;
+  margin: 20px;
+  border-radius: 20px;
+}
+
+.card_img{
+  height: 230px;
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.card__name{
+  padding: 10px;
+  text-align: left;
+}
+
+.card__titleIngredient{
+  padding-top: 10px ;
+  font-size: 20px;
+  border-top: 1px solid #d0c9c9
+}
+
+.card__ingredient{
+  margin: 10px;
+}
+
+.card__price{
+  font-family: sans-serif;
+  font-weight: 600;
+  padding-top: 10px;
+  border-top: 1px solid #d0c9c9;
+}
+
+.card__contentButton{
+  display: flex;
+  justify-content: space-around;
+  margin: 15px;
+}
+
+.card__button{
+  padding: 5px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.añadir{
+  background-color: #000;
+  color: azure;
+}
+
+.foot__content{
+  background-color: #000;
+  color: azure;
+  text-align: center;
+  padding: 20px 0;
+}
